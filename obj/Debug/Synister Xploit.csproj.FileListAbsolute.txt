@@ -1,0 +1,12 @@
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\bin\Debug\Synister Xploit.exe.config
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\bin\Debug\Synister Xploit.exe
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\bin\Debug\Synister Xploit.pdb
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.csproj.AssemblyReference.cache
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister_Xploit.Synister.resources
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister_Xploit.Properties.Resources.resources
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.csproj.GenerateResource.cache
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.csproj.CoreCompileInputs.cache
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.csproj.CopyComplete
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.exe
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.pdb
+C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\bin\Debug\FastColoredTextBox.dll
