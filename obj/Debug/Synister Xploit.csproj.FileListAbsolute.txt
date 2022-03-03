@@ -10,3 +10,16 @@ C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xpl
 C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.exe
 C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\obj\Debug\Synister Xploit.pdb
 C:\Users\hardi\Documents\Cheetos\Synister\Synister Xploit\bin\Debug\FastColoredTextBox.dll
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.csproj.AssemblyReference.cache
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister_Xploit.Synister.resources
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister_Xploit.Properties.Resources.resources
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.csproj.GenerateResource.cache
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.csproj.CoreCompileInputs.cache
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.exe
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.pdb
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\Synister Xploit.exe.config
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\Synister Xploit.exe
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\Synister Xploit.pdb
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\FastColoredTextBox.dll
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\KrnlAPI.dll
+C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.csproj.CopyComplete

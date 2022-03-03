@@ -8,13 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WeAreDevs_API;
+using KrnlAPI;
 
 namespace Synister_Xploit
 {
     public partial class Synister : Form
     {
-        ExploitAPI api = new ExploitAPI();
+        KrnlApi krnlApi = new KrnlApi();
         private Point lastPoint;
 
         public Synister()
@@ -24,22 +24,22 @@ namespace Synister_Xploit
 
         private void Execute_Click(object sender, EventArgs e)
         {
-            if (!api.isAPIAttached())
+            if (!krnlApi.IsInjected())
             {
                 MessageBox.Show("Exploit is not Injected");
             }
             else
             {
                 string ScriptText = ScriptBox.Text;
-                api.SendLuaScript(ScriptText);
+                krnlApi.Execute(ScriptBox.Text);
             }
         }
 
         private void Inject_Click(object sender, EventArgs e)
         {
-            if (!api.isAPIAttached())
+            if (!krnlApi.IsInjected())
             {
-                api.LaunchExploit();
+                krnlApi.Inject();
             }
             else
             {
@@ -64,7 +64,7 @@ namespace Synister_Xploit
 
         private void Synister_Load(object sender, EventArgs e)
         {
-
+            krnlApi.Initialize();
         }
 
         private void SaveFile_Click(object sender, EventArgs e)

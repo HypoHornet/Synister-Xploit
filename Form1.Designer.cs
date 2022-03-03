@@ -39,9 +39,9 @@ namespace Synister_Xploit
             this.Settings = new System.Windows.Forms.Button();
             this.ScriptBox = new FastColoredTextBoxNS.FastColoredTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.SaveFile = new System.Windows.Forms.Button();
             this.OpenFile = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ScriptBox)).BeginInit();
             this.panel1.SuspendLayout();
@@ -141,13 +141,14 @@ namespace Synister_Xploit
         '\''};
             this.ScriptBox.AutoIndentCharsPatterns = "^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>[^;=]+);\r\n^\\s*(case|default)\\s*[^:]*" +
     "(?<range>:)\\s*(?<range>[^;]+);";
-            this.ScriptBox.AutoScrollMinSize = new System.Drawing.Size(227, 84);
+            this.ScriptBox.AutoScrollMinSize = new System.Drawing.Size(211, 98);
             this.ScriptBox.BackBrush = null;
             this.ScriptBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ScriptBox.CharHeight = 14;
             this.ScriptBox.CharWidth = 8;
             this.ScriptBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.ScriptBox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.ScriptBox.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.ScriptBox.ForeColor = System.Drawing.Color.White;
             this.ScriptBox.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ScriptBox.IsReplaceMode = false;
@@ -159,7 +160,7 @@ namespace Synister_Xploit
             this.ScriptBox.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("ScriptBox.ServiceColors")));
             this.ScriptBox.Size = new System.Drawing.Size(628, 326);
             this.ScriptBox.TabIndex = 7;
-            this.ScriptBox.Text = "--Synister V2\r\n\r\n--Created by Purci#0054\r\n\r\n--Powered by WeAreDevsAPI\r\n";
+            this.ScriptBox.Text = "--Synister V2\r\n\r\n--Created by Purci#0054\r\n\r\n--Powered by KrnlAPI\r\n\r\n";
             this.ScriptBox.Zoom = 100;
             // 
             // panel1
@@ -175,6 +176,17 @@ namespace Synister_Xploit
             this.panel1.TabIndex = 8;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(3, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 24);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Synister";
             // 
             // SaveFile
             // 
@@ -209,17 +221,6 @@ namespace Synister_Xploit
             this.toolTip1.SetToolTip(this.OpenFile, "Open File");
             this.OpenFile.UseVisualStyleBackColor = false;
             this.OpenFile.Click += new System.EventHandler(this.OpenFile_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 24);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Synister";
             // 
             // Synister
             // 
