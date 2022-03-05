@@ -54,9 +54,10 @@ namespace Synister_Xploit
             this.Execute.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Execute.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Execute.ForeColor = System.Drawing.Color.White;
-            this.Execute.Location = new System.Drawing.Point(12, 91);
+            this.Execute.Location = new System.Drawing.Point(16, 124);
+            this.Execute.Margin = new System.Windows.Forms.Padding(4);
             this.Execute.Name = "Execute";
-            this.Execute.Size = new System.Drawing.Size(47, 47);
+            this.Execute.Size = new System.Drawing.Size(63, 57);
             this.Execute.TabIndex = 1;
             this.Execute.Text = "▶️";
             this.toolTip1.SetToolTip(this.Execute, "Execute");
@@ -70,10 +71,10 @@ namespace Synister_Xploit
             this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clear.ForeColor = System.Drawing.Color.White;
-            this.Clear.Location = new System.Drawing.Point(12, 141);
+            this.Clear.Location = new System.Drawing.Point(16, 185);
             this.Clear.Margin = new System.Windows.Forms.Padding(0);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(47, 46);
+            this.Clear.Size = new System.Drawing.Size(63, 57);
             this.Clear.TabIndex = 2;
             this.Clear.Text = "C";
             this.toolTip1.SetToolTip(this.Clear, "Clear");
@@ -87,10 +88,10 @@ namespace Synister_Xploit
             this.Inject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Inject.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Inject.ForeColor = System.Drawing.Color.White;
-            this.Inject.Location = new System.Drawing.Point(12, 42);
+            this.Inject.Location = new System.Drawing.Point(16, 62);
             this.Inject.Margin = new System.Windows.Forms.Padding(0);
             this.Inject.Name = "Inject";
-            this.Inject.Size = new System.Drawing.Size(47, 46);
+            this.Inject.Size = new System.Drawing.Size(63, 57);
             this.Inject.TabIndex = 3;
             this.Inject.Text = "💉";
             this.toolTip1.SetToolTip(this.Inject, "Inject");
@@ -99,9 +100,10 @@ namespace Synister_Xploit
             // 
             // Close
             // 
-            this.Close.Location = new System.Drawing.Point(682, 7);
+            this.Close.Location = new System.Drawing.Point(909, 9);
+            this.Close.Margin = new System.Windows.Forms.Padding(4);
             this.Close.Name = "Close";
-            this.Close.Size = new System.Drawing.Size(22, 22);
+            this.Close.Size = new System.Drawing.Size(29, 27);
             this.Close.TabIndex = 4;
             this.Close.Text = "X";
             this.Close.UseVisualStyleBackColor = true;
@@ -109,9 +111,10 @@ namespace Synister_Xploit
             // 
             // Minimize
             // 
-            this.Minimize.Location = new System.Drawing.Point(654, 7);
+            this.Minimize.Location = new System.Drawing.Point(872, 9);
+            this.Minimize.Margin = new System.Windows.Forms.Padding(4);
             this.Minimize.Name = "Minimize";
-            this.Minimize.Size = new System.Drawing.Size(22, 22);
+            this.Minimize.Size = new System.Drawing.Size(29, 27);
             this.Minimize.TabIndex = 5;
             this.Minimize.Text = "-";
             this.Minimize.UseVisualStyleBackColor = true;
@@ -119,9 +122,10 @@ namespace Synister_Xploit
             // 
             // Settings
             // 
-            this.Settings.Location = new System.Drawing.Point(626, 7);
+            this.Settings.Location = new System.Drawing.Point(835, 9);
+            this.Settings.Margin = new System.Windows.Forms.Padding(4);
             this.Settings.Name = "Settings";
-            this.Settings.Size = new System.Drawing.Size(22, 22);
+            this.Settings.Size = new System.Drawing.Size(29, 27);
             this.Settings.TabIndex = 6;
             this.Settings.Text = "⚙️\r\n";
             this.Settings.UseVisualStyleBackColor = true;
@@ -141,11 +145,11 @@ namespace Synister_Xploit
         '\''};
             this.ScriptBox.AutoIndentCharsPatterns = "^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>[^;=]+);\r\n^\\s*(case|default)\\s*[^:]*" +
     "(?<range>:)\\s*(?<range>[^;]+);";
-            this.ScriptBox.AutoScrollMinSize = new System.Drawing.Size(211, 98);
+            this.ScriptBox.AutoScrollMinSize = new System.Drawing.Size(281, 144);
             this.ScriptBox.BackBrush = null;
             this.ScriptBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ScriptBox.CharHeight = 14;
-            this.ScriptBox.CharWidth = 8;
+            this.ScriptBox.CharHeight = 18;
+            this.ScriptBox.CharWidth = 10;
             this.ScriptBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.ScriptBox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.ScriptBox.Font = new System.Drawing.Font("Courier New", 9.75F);
@@ -153,14 +157,15 @@ namespace Synister_Xploit
             this.ScriptBox.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ScriptBox.IsReplaceMode = false;
             this.ScriptBox.LineNumberColor = System.Drawing.Color.White;
-            this.ScriptBox.Location = new System.Drawing.Point(76, 42);
+            this.ScriptBox.Location = new System.Drawing.Point(101, 52);
+            this.ScriptBox.Margin = new System.Windows.Forms.Padding(4);
             this.ScriptBox.Name = "ScriptBox";
             this.ScriptBox.Paddings = new System.Windows.Forms.Padding(0);
             this.ScriptBox.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.ScriptBox.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("ScriptBox.ServiceColors")));
-            this.ScriptBox.Size = new System.Drawing.Size(628, 326);
+            this.ScriptBox.Size = new System.Drawing.Size(837, 401);
             this.ScriptBox.TabIndex = 7;
-            this.ScriptBox.Text = "--Synister V2\r\n\r\n--Created by Purci#0054\r\n\r\n--Powered by KrnlAPI\r\n\r\n";
+            this.ScriptBox.Text = "--Synister V2\r\n\r\n--Created by Purci#0054\r\n\r\n--Powered by WeAreDevsAPI\r\n\r\n\r\n";
             this.ScriptBox.Zoom = 100;
             // 
             // panel1
@@ -171,8 +176,9 @@ namespace Synister_Xploit
             this.panel1.Controls.Add(this.Settings);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(716, 36);
+            this.panel1.Size = new System.Drawing.Size(955, 44);
             this.panel1.TabIndex = 8;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -182,9 +188,10 @@ namespace Synister_Xploit
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 4);
+            this.label1.Location = new System.Drawing.Point(4, 5);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 24);
+            this.label1.Size = new System.Drawing.Size(99, 29);
             this.label1.TabIndex = 7;
             this.label1.Text = "Synister";
             // 
@@ -195,10 +202,10 @@ namespace Synister_Xploit
             this.SaveFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaveFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveFile.ForeColor = System.Drawing.Color.White;
-            this.SaveFile.Location = new System.Drawing.Point(12, 187);
+            this.SaveFile.Location = new System.Drawing.Point(16, 309);
             this.SaveFile.Margin = new System.Windows.Forms.Padding(0);
             this.SaveFile.Name = "SaveFile";
-            this.SaveFile.Size = new System.Drawing.Size(47, 46);
+            this.SaveFile.Size = new System.Drawing.Size(63, 57);
             this.SaveFile.TabIndex = 9;
             this.SaveFile.Text = "💾";
             this.toolTip1.SetToolTip(this.SaveFile, "Save File");
@@ -212,10 +219,10 @@ namespace Synister_Xploit
             this.OpenFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OpenFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OpenFile.ForeColor = System.Drawing.Color.White;
-            this.OpenFile.Location = new System.Drawing.Point(12, 233);
+            this.OpenFile.Location = new System.Drawing.Point(16, 246);
             this.OpenFile.Margin = new System.Windows.Forms.Padding(0);
             this.OpenFile.Name = "OpenFile";
-            this.OpenFile.Size = new System.Drawing.Size(47, 46);
+            this.OpenFile.Size = new System.Drawing.Size(63, 57);
             this.OpenFile.TabIndex = 10;
             this.OpenFile.Text = "📂";
             this.toolTip1.SetToolTip(this.OpenFile, "Open File");
@@ -224,10 +231,10 @@ namespace Synister_Xploit
             // 
             // Synister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.ClientSize = new System.Drawing.Size(716, 387);
+            this.ClientSize = new System.Drawing.Size(955, 476);
             this.Controls.Add(this.OpenFile);
             this.Controls.Add(this.SaveFile);
             this.Controls.Add(this.Clear);
@@ -236,6 +243,7 @@ namespace Synister_Xploit
             this.Controls.Add(this.ScriptBox);
             this.Controls.Add(this.Inject);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Synister";
             this.Text = "Synister";
             this.Load += new System.EventHandler(this.Synister_Load);

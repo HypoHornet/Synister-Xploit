@@ -52,9 +52,6 @@
     <Reference Include="FastColoredTextBox">
       <HintPath>.\FastColoredTextBox.dll</HintPath>
     </Reference>
-    <Reference Include="KrnlAPI">
-      <HintPath>.\KrnlAPI.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -66,6 +63,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WeAreDevs_API">
+      <HintPath>.\WeAreDevs_API.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">

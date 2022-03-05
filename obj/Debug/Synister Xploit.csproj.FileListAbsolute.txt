@@ -23,3 +23,16 @@ C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\
 C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\FastColoredTextBox.dll
 C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\bin\Debug\KrnlAPI.dll
 C:\Users\21HardiI\Downloads\Synister-Xploit-main\Synister-Xploit-main\obj\Debug\Synister Xploit.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\Synister-Xploit\bin\Debug\Synister Xploit.exe.config
+C:\Users\User\Documents\GitHub\Synister-Xploit\bin\Debug\Synister Xploit.exe
+C:\Users\User\Documents\GitHub\Synister-Xploit\bin\Debug\Synister Xploit.pdb
+C:\Users\User\Documents\GitHub\Synister-Xploit\bin\Debug\FastColoredTextBox.dll
+C:\Users\User\Documents\GitHub\Synister-Xploit\bin\Debug\WeAreDevs_API.dll
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister Xploit.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister_Xploit.Synister.resources
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister_Xploit.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister Xploit.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister Xploit.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister Xploit.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister Xploit.exe
+C:\Users\User\Documents\GitHub\Synister-Xploit\obj\Debug\Synister Xploit.pdb
